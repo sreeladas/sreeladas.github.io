@@ -1,6 +1,6 @@
 body {
 	background: url(kepler.jpg) no-repeat;
-	background-size:100%;
+	background-size:cover;
 	background-position: center center;
 	background-attachment: fixed;
 	text-align: center;
