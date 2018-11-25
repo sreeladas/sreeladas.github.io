@@ -1,8 +1,11 @@
 body {
-	background: url(kepler.jpg) no-repeat;
+	background: url(kepler.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-size:cover;
-	background-position: center center;
-	background-attachment: fixed;
+	height: 100%;
+	overflow: hidden;
 	text-align: center;
 }
 .all-content {
