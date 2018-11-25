@@ -7,11 +7,15 @@ body {
 	min-height: 100%;
 	text-align: center;
 }
+footer {
+	font-size: small;
+	color:#ffffff; 
+}
 @media screen and (max-width:800px) {
 	body {
 	background: url(kepler.jpg) no-repeat center center fixed;
 	background-size: cover;
-	height: 100%;
+	min-height: 100%;
 	}
 }
 .all-content {
