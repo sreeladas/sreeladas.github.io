@@ -1,5 +1,8 @@
 body {
-	background: #d1d1e0;
+	background: url(kepler.jpg) no-repeat;
+	background-size:100%;
+	background-position: center center;
+	background-attachment: fixed;
 	text-align: center;
 }
 .all-content {
@@ -68,18 +71,11 @@ body {
 	background-color:#34344c;
 	color:#ffffff; 
 }
-#active{
-	color:#7575a3; 
-}
 a {
 	text-decoration:none; 
 	display:inline-block; 
 	border: 0; 
 	outline: 0; 
-	color: #371c61;
-}
-a:hover {
-	color: #4e288a;
 }
 .dropdown {
 	position: relative;
