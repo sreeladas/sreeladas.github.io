@@ -28,10 +28,14 @@ const banner = ['/*!\n',
 // BrowserSync
 function browserSync(done) {
   browsersync.init({
-    server: {
-      baseDir: "./"
-    },
-    port: 3000
+      server: {
+          baseDir: "./"
+      },
+      serveStatic: ["./", "./posts"],
+      serveStaticOptions: {
+          extensions: ["html"]
+      },
+      port: 3000
   });
   done();
 }
