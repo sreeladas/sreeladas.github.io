@@ -19,25 +19,6 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="#">Sreela Das</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <header class="masthead" style="background-image: url('img/home-bg.webp')">
     <div class="overlay"></div>
     <div class="masthead-content">
@@ -51,11 +32,9 @@
       <div class="row justify-content-center">
         <div class="col-lg-8 col-md-10">
           <h2>About Me</h2>
-          <p>I am a fullstack software engineer at Hello World. </p>
-          <p>Previously, I was a Data Engineer at <a href="https://paper.co/" target="_blank" rel="noopener">Paper</a> where I built and maintained data and recommender systems APIs and ELT pipelines.</p>
-          <p>I did my MSc in physics at McGill University's VERITAS group where I worked with Prof. <a href="http://www.physics.mcgill.ca/~ragan/" target="_blank" rel="noopener">Ken Ragan</a>. I worked in data analysis and tests of stability &mdash; both statistical and algorithmic (systematic), in addition to searches for interesting objects/phenomena in our archival data. I did my thesis project improving telescope resolution using machine learning algorithms (boosted decision trees). McGill retains copyrights to the final product so my thesis is hosted by them. As of this writing, it can be found <a href="https://escholarship.mcgill.ca/concern/theses/kd17cz714" target="_blank" rel="noopener">here</a>.</p>
-          <p>I did my undergraduate degree at New York University's <a href="https://as.nyu.edu/physics.html" target="_blank" rel="noopener">Department of Physics</a> where I worked with <a href="https://as.nyu.edu/content/nyu-as/as/faculty/andy-haas.html" target="_blank" rel="noopener">Prof. Andy Haas</a> on the <a href="https://arxiv.org/pdf/1410.6816v2.pdf" target="_blank" rel="noopener">search for millicharged particles</a> at the LHC.</p>
-          <p>I also worked with <a href="https://cai2r.net/people/martijn-cloos" target="_blank" rel="noopener">Prof. Martijn Cloos</a> at the NYU Langone Medical Center on MR Fingerprinting and image reconstruction using machine learning (singular value decomposition).</p>
+          <p>I'm a fullstack software engineer at <a href="https://www.helloworldcs.org/" target="_blank" rel="noopener">Hello World</a>, where I work across the stack, focusing recently on rostering, data integrations, and performance so the app stays fast even on slow networks with limited bandwidth.</p>
+          <p>Before that, I spent nearly four years at <a href="https://paper.co/" target="_blank" rel="noopener">Paper</a>, where I grew from a junior to a senior data engineer. I cared a lot about data quality and making data accessible to the people who needed it. I built event-driven pipelines and real-time dashboards, and set up self-serve tooling with dbt and Airflow so ML and BI teams could build and ship their own pipelines without waiting on engineering.</p>
+          <p>I came to software from physics. I did my MSc at McGill in the <a href="http://www.physics.mcgill.ca/~ragan/" target="_blank" rel="noopener">VERITAS group</a>, where my <a href="https://escholarship.mcgill.ca/concern/theses/kd17cz714" target="_blank" rel="noopener">thesis</a> used boosted decision trees to improve telescope resolution. Before that, I studied physics at NYU, where I worked with <a href="https://as.nyu.edu/content/nyu-as/as/faculty/andy-haas.html" target="_blank" rel="noopener">Prof. Andy Haas</a> on a <a href="https://arxiv.org/pdf/1410.6816v2.pdf" target="_blank" rel="noopener">search for millicharged particles</a> at the LHC, and with <a href="https://cai2r.net/people/martijn-cloos" target="_blank" rel="noopener">Prof. Martijn Cloos</a> at NYU Langone on MR Fingerprinting and image reconstruction.</p>
         </div>
       </div>
     </div>
@@ -90,18 +69,6 @@
     <p class="copyright">Image Credit: NASA/Ames Research Center/W. Stenzel/D. Rutter (https://www.nasa.gov/kepler/starrynight)</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    (function() {
-      "use strict";
-
-      var navbar = document.getElementById("mainNav");
-      window.addEventListener("scroll", function() {
-        navbar.classList.toggle("scrolled", window.scrollY > 50);
-      });
-
-    })();
-  </script>
 
 </body>
 
